@@ -55,3 +55,70 @@ User → Gradio UI → LangChain ReAct Agent → MCP Client → MCP Server → R
 * Implemented runtime tool discovery
 * Integrated LLM tool calling with a ReAct loop
 * Developed an interactive AI application using Gradio
+
+
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/connoisseur-companion-mcp-agent.git
+cd connoisseur-companion-mcp-agent
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate      # Linux/macOS
+# .venv\\Scripts\\activate     # Windows
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Environment Variables
+
+The host application uses IBM watsonx.ai.
+
+Create a `.env` file (or export environment variables) with:
+
+```env
+WATSONX_APIKEY=your_api_key
+WATSONX_PROJECT_ID=your_project_id
+```
+
+## Running the MCP Server
+
+```bash
+python server.py
+```
+
+## Running the MCP Client
+
+```bash
+python client.py
+```
+
+## Running the Full AI Host Application
+
+```bash
+gradio app.py
+```
+
+After launch, Gradio will display:
+
+```
+Running on local URL: http://127.0.0.1:7860
+Running on public URL: https://xxxxxxxx.gradio.live
+```
+
+Open the public URL in your browser and try prompts such as:
+
+* Find me a moody restaurant in DTLA
+* Tell me about Iron & Embers
+* Show me a detailed review for Sakura Garden
