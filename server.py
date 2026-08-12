@@ -150,4 +150,3 @@ def get_review(restaurant_name: str) -> str:
 # Run the Server
 if __name__ == "__main__":
     mcp.run()
-

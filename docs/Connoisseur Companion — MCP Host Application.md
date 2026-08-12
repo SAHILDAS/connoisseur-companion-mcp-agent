@@ -4,6 +4,7 @@ An intelligent AI restaurant assistant that combines a **Model Context Protocol 
 
 Connoisseur Companion can discover restaurant tools at runtime, reason about which tool to use, call MCP tools through a ReAct (Reason + Act) agent loop, and present natural-language restaurant recommendations through a modern chat interface.
 
+
 ---
 
 ## Overview

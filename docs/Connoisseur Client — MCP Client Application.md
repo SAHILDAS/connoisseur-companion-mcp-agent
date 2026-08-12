@@ -4,6 +4,7 @@ An MCP (Model Context Protocol) client that connects to the **Connoisseur MCP Se
 
 This project represents the **client side of the MCP architecture**, completing the communication layer between AI applications and external tools.
 
+
 ---
 
 ## Overview

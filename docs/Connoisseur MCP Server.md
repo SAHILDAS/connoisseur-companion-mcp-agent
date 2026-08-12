@@ -2,6 +2,7 @@
 
 A **FastMCP-based Model Context Protocol (MCP) server** that exposes California restaurant and culinary data through standardized MCP **resources** and **tools**. This project converts previously built restaurant search logic into a reusable protocol-compliant service that any MCP-compatible client or AI agent can discover and invoke.
 
+
 ## Overview
 
 This server wraps a California culinary dataset and exposes it through MCP so that external agents can:

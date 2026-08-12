@@ -12,6 +12,7 @@ from mcp.types import (
     CreateMessageRequestParams,
 )
 
+
 # Configuration
 SERVER_SCRIPT = str(Path(__file__).parent / "server.py")
 PROJECT_DIR = Path(__file__).parent.resolve()

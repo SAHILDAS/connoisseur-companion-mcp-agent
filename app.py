@@ -11,6 +11,7 @@ SERVER_SCRIPT = str(Path(__file__).parent / "server.py")
 SYSTEM_PROMPT = """
 You are Connoisseur Companion, an AI restaurant assistant with access to a database of California restaurants.
 
+
 You can use the following MCP tools:
 - get_restaurant_info: look up specific restaurants by name.
 - recommend_by_vibe: find restaurants that match a mood or atmosphere.

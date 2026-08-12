@@ -92,6 +92,7 @@ WATSONX_APIKEY=your_api_key
 WATSONX_PROJECT_ID=your_project_id
 ```
 
+
 ## Running the MCP Server
 
 ```bash
